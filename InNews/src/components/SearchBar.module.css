@@ -1,0 +1,27 @@
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 3px 8px;
+  width: 200px;
+  position: relative;
+  background-color: white;
+}
+
+.input {
+  border: none;
+  outline: none;
+  flex: 1;
+  max-width: 153px;
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.clearIcon {
+  color: #888;
+  cursor: pointer;
+  font-size: 18px;
+  flex-shrink: 0;
+}

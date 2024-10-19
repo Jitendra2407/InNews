@@ -1,0 +1,61 @@
+.WeatherContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LeftIcons {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 24px;
+  font-size: 32px;
+}
+
+.Setting {
+  margin-top: 10px;
+  margin-left: 20px;
+  gap: 8px;
+  margin-right: 24px;
+  font-size: 32px;
+}
+
+.QuotesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Head {
+  display: flex;
+  justify-content: center;
+}
+
+.Quote {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin-top: 8px;
+  max-width: 80%;
+  text-align: center;
+}
+
+.NotesContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.NoteIcon{
+  margin-right: 24px;
+  margin-top: 35px;
+  font-size: 42px;
+}
+
+.ListNote{
+  margin-left: 24px;
+  margin-top: 35px;
+  font-size: 42px;
+}

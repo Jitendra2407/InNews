@@ -1,0 +1,23 @@
+.WeatherContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LeftIcons {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 24px;
+  font-size: 32px;
+}
+
+.Setting {
+  margin-top: 10px;
+  margin-left: 20px;
+  gap: 8px;
+  margin-right: 24px;
+  font-size: 32px;
+}

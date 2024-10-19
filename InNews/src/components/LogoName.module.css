@@ -1,0 +1,15 @@
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Logo_Head{
+  color: white;
+  margin-right: 30px;
+  font: 'Poppins';
+}

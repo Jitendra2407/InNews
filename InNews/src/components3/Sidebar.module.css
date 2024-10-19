@@ -1,0 +1,57 @@
+/* Sidebar.module.css */
+
+.sidebarContainer {
+  width: 3.5rem; /* Default width */
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Small screens */
+@media (max-width: 640px) {
+  .sidebarContainer {
+    width: 100%; /* Full width on small screens */
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1rem;
+  }
+  
+  .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .list li {
+    width: 45%; /* Each item takes up 45% of the container width */
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .sidebarContainer {
+    width: 8rem; /* Slightly wider on medium screens */
+  }
+  
+  .list li {
+    text-align: left;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+  .sidebarContainer {
+    width: 14rem; /* Original width for larger screens */
+  }
+  
+  .list li {
+    text-align: left;
+  }
+}
