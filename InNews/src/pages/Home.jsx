@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import NoteModal from "../components/NoteModal";
 import { useState } from "react";
 import { LiaClipboardListSolid } from "react-icons/lia";
+import Quotes from "../components/Quotes";
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
   };
 
 
+
   return (
     <>
       <div className={styles.WeatherContainer}>
@@ -34,7 +36,7 @@ const Home = () => {
       </div>
 
       {/* Quotes */}
-      <div className={styles.QuotesContainer}>
+      {/* <div className={styles.QuotesContainer}>
         <div className={styles.Head}>
           <h1>Quote of The Day</h1>
         </div>
@@ -44,7 +46,9 @@ const Home = () => {
             before, you are not winner until you win again..."
           </p>
         </div>
-      </div>
+      </div> */}
+
+      <Quotes></Quotes>
 
       <CardSlider></CardSlider>
 

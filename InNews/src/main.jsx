@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 createRoot(document.getElementById("root")).render(
   <AuthProvider>
-    <StrictMode>
+    {/* <StrictMode> */}
       <App />
       <ToastContainer
         position="top-right"
@@ -25,6 +25,6 @@ createRoot(document.getElementById("root")).render(
         transition:Bounce
         bodyClassName="toastBody"
       />
-    </StrictMode>
+    {/* </StrictMode> */}
   </AuthProvider>
 );

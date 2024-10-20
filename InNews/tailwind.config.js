@@ -4,14 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-dark-blue': '#001111',
+        "custom-dark-blue": "#001111",
+        "custom-purple": "#625ac4",
       },
       width: {
-        '85': '85%',  // Define a custom width of 85%
-        '14': '14%'   // Define a custom width of 14%
+        85: "85%", // Define a custom width of 85%
+        14: "14%", // Define a custom width of 14%
       },
     },
   },
   plugins: [],
-}
+};
 

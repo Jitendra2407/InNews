@@ -40,6 +40,9 @@ export const AuthProvider = ({ children }) => {
     }
   }
 
+  // Quotes Logic
+  
+
   useEffect(() => {
     userAuthentication();
   }, []);
