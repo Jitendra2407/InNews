@@ -17,7 +17,7 @@ const CardSlider = () => {
   const data = [
     {
       img: Image1,
-      name: 'Times of India',
+      name: 'The Hindu',
       route: '/the-hindu'
     },
     {
@@ -27,7 +27,7 @@ const CardSlider = () => {
     },
     {
       img: Image3,
-      name: 'The New York Times',
+      name: 'BBC News',
       route: '/new-york-times'
     }
   ];
