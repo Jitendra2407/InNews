@@ -10,9 +10,7 @@ import { useState } from "react";
 import { LiaClipboardListSolid } from "react-icons/lia";
 import Quotes from "../components/Quotes";
 
-
 const Home = () => {
-
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const navigate = useNavigate();
@@ -23,8 +21,6 @@ const Home = () => {
     setIsModalOpen(false); // Close modal after saving
   };
 
-
-
   return (
     <>
       <div className={styles.WeatherContainer}>
@@ -34,19 +30,6 @@ const Home = () => {
         </div>
         <IoSettingsOutline className={`${styles.Setting} cursor-pointer`} />
       </div>
-
-      {/* Quotes */}
-      {/* <div className={styles.QuotesContainer}>
-        <div className={styles.Head}>
-          <h1>Quote of The Day</h1>
-        </div>
-        <div className={styles.Quote}>
-          <p>
-            "Being a winner is a curse, it doesn't matter how much you have won
-            before, you are not winner until you win again..."
-          </p>
-        </div>
-      </div> */}
 
       <Quotes></Quotes>
 

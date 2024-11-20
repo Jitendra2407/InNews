@@ -59,7 +59,7 @@ const Quotes = () => {
         {/* Main container with fixed width and centered layout */}
         <div className="container w-1/2 max-w-md h-auto p-6 rounded-lg shadow-lg flex flex-col justify-between">
           <p className="text-2xl font-bold text-center my-4 bg-gradient-to-r from-indigo-500 to-pink-500 text-transparent bg-clip-text animate-fadeIn">
-            Quotes of the Day
+            Quote of the Day
           </p>
 
           <div className="quote text-white text-lg text-center overflow-hidden overflow-ellipsis h-auto">

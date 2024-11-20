@@ -27,7 +27,7 @@ function Header() {
         <NavLink to="/">
           <RiHomeSmileFill className={styles.homeIcon} />
         </NavLink>
-        <div className={`${styles.searchContainer} w-64`}>
+        {/* <div className={`${styles.searchContainer} w-64`}>
           <input
             type="text"
             value={searchTerm}
@@ -38,12 +38,12 @@ function Header() {
           {searchTerm && (
             <IoMdClose className={styles.clearIcon} onClick={clearSearch} />
           )}
-        </div>
+        </div> */}
         <div className={styles.Logo}>
           <h1 className={styles.Logo_Head}>inNews</h1>
         </div>
-        <IoLogoGameControllerA className={styles.GameIcons} />
-        <FaLanguage className={styles.LanguageIcons} />
+        {/* <IoLogoGameControllerA className={styles.GameIcons} /> */}
+        {/* <FaLanguage className={styles.LanguageIcons} /> */}
 
         {isLoggedIn ? (
           <NavLink to="/logout" className="no-underline mr-6">

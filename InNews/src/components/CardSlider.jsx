@@ -2,12 +2,17 @@ import React from 'react';
 import Image1 from '../assets/Image1.jpeg';
 import Image2 from '../assets/Image2.jpeg';
 import Image3 from '../assets/Image3.jpeg';
+import entertainment from '../assets/entertainment.png';
+import others from '../assets/others.png';
+import politics from '../assets/politics.png';
+import sports from '../assets/sports.png';
+import technology from '../assets/technology.png';
+import world from '../assets/world.png';
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from 'react-router-dom';
-
 
 
 const CardSlider = () => {
@@ -16,19 +21,34 @@ const CardSlider = () => {
 
   const data = [
     {
-      img: Image1,
-      name: 'The Hindu',
-      route: '/the-hindu'
+      img: politics,
+      name: "Politics",
+      route: "/the-hindu",
     },
     {
-      img: Image2,
-      name: 'Hindustan Times',
-      route: '/hindustan-times'
+      img: sports,
+      name: "Sports",
+      route: "/hindustan-times",
     },
     {
-      img: Image3,
-      name: 'BBC News',
-      route: '/new-york-times'
+      img: technology,
+      name: "Technology",
+      route: "/new-york-times",
+    },
+    {
+      img: entertainment,
+      name: "Entertainment",
+      route: "/hindustan-times",
+    },
+    {
+      img: world,
+      name: "World",
+      route: "/hindustan-times",
+    },
+    {
+      img: others,
+      name: "Others",
+      route: "/hindustan-times",
     }
   ];
 

@@ -10,6 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@date-io/date-fns": "^3.0.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.5",
+    "@mui/x-date-pickers": "^7.21.0",
     "bootstrap": "^5.3.3",
     "lottie-react": "^2.4.0",
     "react": "^18.3.1",

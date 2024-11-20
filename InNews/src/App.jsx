@@ -15,20 +15,22 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header/>
+        <Header />
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/register' element={<Register/>}/>
-          <Route path='/login' element={<Login/>}/>
-          <Route path='/logout' element={<Logout/>}/>
-          <Route path='*' element={<Error/>}/>
-          <Route path='/the-hindu' element={<TheHindu/>}/>
-          <Route path='/notes' element={<Notes/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/logout" element={<Logout />} />
+          <Route path="*" element={<Error />} />
+          <Route path="/the-hindu" element={<TheHindu />} />
+          <Route path="/hindustan-times" element={<TheHindu/>}/>
+          <Route path="/new-york-times" element={<TheHindu/>}/>
+          <Route path="/notes" element={<Notes />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </>
-  )
+  );
 }
 
 export default App;
