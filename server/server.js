@@ -23,7 +23,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/form", contactRoute);
-app.use("/api/data", noteRoute);
+app.use("/api/notes", noteRoute);
 
 app.use(errorMiddleware);
 

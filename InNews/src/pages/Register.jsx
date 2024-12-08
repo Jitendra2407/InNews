@@ -5,7 +5,6 @@ import register from "../assets/register.json";
 import { useAuth } from "../store/auth";
 import "../App.css";
 import { toast } from "react-toastify";
-import styles from "./Register.module.css";
 
 const URL = "http://localhost:5000/api/auth/register";
 
